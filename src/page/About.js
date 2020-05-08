@@ -8,7 +8,7 @@ function About() {
   const { t } = useTranslation();
   return (
     <Content style={{ padding: '20px', backgroundColor: 'white' }}>
-      <div>{t('version')}: v0.3.0</div>
+      <div>{t('version')}: v0.3.2</div>
     </Content>
   );
 }
